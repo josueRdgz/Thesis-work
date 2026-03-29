@@ -1,0 +1,32 @@
+<mxfile host="65bd71144e" pages="1">
+    <diagram id="alzUFcQh-ELiI43vTx5U" name="Page-1">
+        <mxGraphModel dx="1437" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="93" value="Variables iniciales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="-1080" width="250" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="Variables intermendias" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-990" width="250" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="Variables finales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-770" width="250" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="-990" width="30" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Es donde se desarrolla todo el proceso de evaluación automática" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="-925" width="250" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="endArrow=classic;html=1;sketch=1;curveFitting=1;jiggle=2;curved=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="-975" as="sourcePoint"/>
+                        <mxPoint x="100" y="-780" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

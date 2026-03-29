@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+
+\bibitem{Alemany}
+Gabriel Alemany, Angel~Alejandro Juan, Roberto Garc{\'i}a, {\'A}lvaro Garc{\'i}a, and M.~Ortega.
+\newblock Multi-capacity, multi-depot, multi-product vrp with heterogeneous fleets and demand exceeding depot capacity.
+\newblock 2015.
+
+\bibitem{Bayir}
+Bilgesu Bayir, Aur{\'e}lie Charles, Aicha Sekhari, and Yacine Ouzrout.
+\newblock Multi-depot vehicle routing problem with branch-and-cut: An application in short food supply chains.
+\newblock 2022.
+
+\bibitem{Daniela}
+Daniela~González Beltrán.
+\newblock Generación automática de gramáticas para la obtención de infinitos criterios de vecindad en el problema de enrutamiento de vehículos.
+\newblock Master's thesis, 2019.
+
+\bibitem{Manuel}
+Manuel A.~Ferreiro Caballero.
+\newblock Adolnet: Herramienta para la diferenciación automática en .net.
+\newblock Master's thesis, Facultad de Matem\'atica y Computaci\'on, Universidad de La Habana, La Habana, Cuba, 2010.
+
+\bibitem{Dantzing}
+George~B Dantzig and John~H Ramser.
+\newblock The truck dispatching problem.
+\newblock {\em Management science}, 6(1):80--91, 1959.
+
+\bibitem{Griewank}
+A.~Griewank.
+\newblock On automatic differentiation.
+\newblock {\em Mathematical Programming: Recent Developments and Applications}, 40:83--108, 1989.
+
+\bibitem{Rodrigo}
+Rodrigo~García Gómez.
+\newblock Sistema para la integración de herramientas para la solución ágil de problemas de enrutamiento de vehículos.
+\newblock Master's thesis, 2022.
+
+\bibitem{Hillier}
+F.~S. Hillier and G.~Lieberman.
+\newblock {\em Introducción a la investigación de operaciones}.
+\newblock McGraw-Hill, novena edition, 2006.
+
+\bibitem{Kolen}
+Antoon W.~J. Kolen, Alexander H. G.~Rinnooy Kan, and Harry W. J.~M. Trienekens.
+\newblock Vehicle routing with time windows.
+\newblock {\em Oper. Res.}, 35:266--273, 1987.
+
+\bibitem{Liu}
+Wan-hui Liu, Shu-jun Tian, Chun-qiang Jia, and Yu-Ning Cao.
+\newblock A hybrid genetic-simulated annealing algorithm for optimization of hydraulic manifold blocks.
+\newblock {\em Journal of Shanghai University (English Edition)}, 12(3):261--267, 2008.
+
+\bibitem{Mester}
+David~I. Mester and Olli Br{\"a}ysy.
+\newblock Active-guided evolution strategies for large-scale capacitated vehicle routing problems.
+\newblock {\em Comput. Oper. Res.}, 34:2964--2975, 2007.
+
+\bibitem{Camila}
+Camila~P\'erez Mosquera.
+\newblock Primeras aproximaciones a la b\'usqueda de vecindad infinitamente variable.
+\newblock Master's thesis, Facultad de Matem\'atica y Computaci\'on, Universidad de La Habana, La Habana, Cuba, May 2017.
+
+\bibitem{Garey}
+Garey~M. R. and D.~Johnson.
+\newblock {\em Computers and intractability, A Guide to the theory of NP- Completeness}.
+\newblock W.H.Freeman and Company, 1979.
+
+\bibitem{Ropke}
+Stefan R{\o}pke and David Pisinger.
+\newblock An adaptive large neighborhood search heuristic for the pickup and delivery problem with time windows.
+\newblock {\em Transp. Sci.}, 40:455--472, 2006.
+
+\bibitem{JJ}
+Jos\'e Jorge~Rodr\'iguez Salgado.
+\newblock Una propuesta para la evaluación automática de soluciones vecinas en un problema de enrutamiento de vehículos a partir del grafo de evaluación de una solución.
+\newblock Master's thesis, Facultad de Matem\'atica y Computaci\'on, Universidad de La Habana, La Habana, Cuba, 2020.
+
+\bibitem{PedroP}
+Pedro Pablo~Ballesteros Silva and Antonio~Escobar Zuluaga.
+\newblock Review of state of the art vehicle routing problem with pickup and delivery (vrppd).
+\newblock {\em Ingeniería y Desarrollo}, 34:463--482, 2016.
+
+\bibitem{Taillard1997}
+{\'E}ric Taillard, Philippe Badeau, Michel Gendreau, Fran{\c{c}}ois Guertin, and Jean-Yves Potvin.
+\newblock A tabu search heuristic for the vehicle routing problem with soft time windows.
+\newblock {\em Transportation science}, 31(2):170--186, 1997.
+
+\bibitem{Toth}
+P.~Toth and D.~Vigo.
+\newblock {\em The Vehicle Routing Problem}.
+\newblock Society for Industrial and Applied Mathematics, 2002.
+
+\end{thebibliography}

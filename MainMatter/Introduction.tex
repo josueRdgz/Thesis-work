@@ -1,0 +1,54 @@
+\chapter*{Introducción}\label{chapter:introduction}
+\addcontentsline{toc}{chapter}{Introducción}
+
+\qquad 
+Los Problemas de Enrutamiento de Vehículos (VRP~por sus siglas en inglés) son problemas logísticos en los que las empresas invierten hasta el 20\% de sus ganancias \cite{Toth}. Una optimización de las estrategias de solución de estos problemas significaría un ahorro significativo del presupuesto destinado a resolverlos. 
+
+Los VRP son un grupo de problemas de optimización combinatoria que tienen como objetivo determinar un conjunto de rutas para una flota de vehículos que parten de uno o más depósitos para satisfacer las demandas de un grupo de clientes distribuidos en una zona determinada. A su vez, se desea optimizar el costo de algún recurso, ya sea capacidad, combustible, tiempo \cite{Hillier}.
+
+El problema original se modifica en dependencia de las demandas de los clientes y a partir de estas modificaciones surgen múltiples variantes como: 
+\begin{itemize}
+	\item VRP con recogida y entrega (VRPPD) que tiene el objetivo de encontrar una serie de rutas para un conjunto de vehículos que deben suministrar servicio a clientes, con la restricción de que los vehículos tengan suficiente capacidad de transporte para los productos (o personas) que deben ser recogidos y/o entregados a cada cliente (nodo) \cite{PedroP},
+
+    \item VRP con ventanas de tiempo (VRPTW) donde una flota fija de vehículos de capacidad limitada está disponible en un depósito para atender a un conjunto de clientes con demandas determinadas y cada cliente debe ser visitado dentro de un período de tiempo determinado \cite{Kolen}, 
+	\item VRP con más de un depósito (MDVRP) \cite{Bayir, Alemany}, 
+	\item VRP con restricciones de capacidad (CVRP) donde cada vehículo tiene una capacidad limitada \cite{Alemany}, por solo mencionar algunas. 
+\end{itemize}
+	Cada una de ellas presenta características que la diferencian del resto, por lo que resulta difícil plantear un método genérico que resuelva cualquier VRP\@.
+
+Estos problemas son NP-duros \cite{Garey}, que son los problemas que no se pueden resolver en un tiempo polinomial. El tiempo y esfuerzo computacional requerido para resolver los VRP aumenta exponencialmente respecto al tamaño del problema. Por esta razón, se deben resolver con métodos aproximados como las heurísticas o metaheurísticas.
+
+Algunos de estos algoritmos son basados en poblaciones como los algoritmos genéticos \cite{Mester}, otros como SA (Simulated Annealing) \cite{Liu}, LNS (Large Neighborhood Search) \cite{Ropke} y VNS (Variable Neighborhood Search) \cite{Camila} que se basan en una búsqueda local.
+
+Para solucionar un VRP mediante un algoritmo de búsqueda local se parte de una solución inicial $S_{0}$ a la que se le hacen transformaciones, como cambiar de rutas, vehículos o clientes y, a partir de estos cambios se obtiene un conjunto de nuevas soluciones que se denomina vecindad de $S_{0}$. De este conjunto se selecciona una solución $S_{1}$ y a partir de esta última se repite el proceso hasta que se cumpla algún criterio de parada \cite{JJ}. 
+
+El problema a resolver es que para evaluar cada una de las nuevas soluciones se debe programar un algoritmo de evaluación, que es diferente en cada VRP. ¿Cómo se puede automatizar el proceso de evaluación de todas las soluciones? ¿Cómo generalizar ese proceso para todos los Problemas de Enrutamiento de Vehículos?
+
+En este trabajo se plantea un método para calcular el costo de las nuevas soluciones para cualquier problema de enrutamiento de vehículos de manera automática. Esto se realiza a través de una estructura denominada \textit{cinta computacional}, es decir, una lista de las transformaciones que se apliquen a la solución inicial.
+
+Esta misma estructura se utiliza en el proceso de diferenciación automática que calcula las derivadas de una función matemática de manera exacta y con la mayor precisión posible en un tiempo razonable que en la mayor parte de los casos prácticos no excede de un pequeño múltiplo del propio tiempo de evaluación de la función \cite{Manuel,Griewank}.
+
+En la Facultad de Matemática y Computación de la Universidad de La Habana se desarrollan métodos de solución generalizados para todas las variante de VRP. Por ejemplo, en \cite{Camila} se desarrolla una metaheurística de Búsqueda Local (IVNS, por sus siglas en inglés) que permite considerar infinitos criterios de vecindad para un problema, utilizando gramáticas libres del contexto. 
+
+Por su parte, en \cite{JJ} se presenta una forma de calcular el costo de un vecino en casi cualquier variante de VRP, utilizando una estructura llamada Grafo de Evaluación. Algunas variantes, como el Problema de Enrutamiento de Vehículos con Entregas y Recogidas Simultáneas no son solucionadas con esta propuesta. La solución que se presenta en este trabajo resuelve todas las variantes de los VRP y extiende la investigación realizada por \cite{JJ}. 
+
+\subsection*{Objetivos}
+El objetivo de este trabajo es desarrollar una estructura que evalúe de manera autómatica las soluciones vecinas de cualquier problema de enrutamiento de vehículos, a partir del grafo de evaluación propuesto en \cite{JJ}. Para eso se implementa una cinta computacional basada en la idea de la diferenciación automática.
+
+Para lograr los objetivos generales se han trazado los siguientes objetivos específicos:
+
+\begin{enumerate}
+	\item Consultar literatura especializada sobre el estado del arte de los problemas VRP.
+	\item Estudiar las ideas y códigos relacionados con el Grafo de Evaluación \cite{JJ}
+	\item Diseñar e implementar una cinta computacional a partir del Grafo de Evaluación.	
+	\item Analizar los resultados obtenidos en diferentes variantes de VRP.
+\end{enumerate}
+
+El presente documento está organizado en 4 capítulos.
+
+En el capítulo \ref{chapter: VRP} se describen las caraterísticas fundamentales de los problemas de enrutamiento de vehículos y los algoritmos de búsqueda local. En el capítulo \ref{chapter: AD} se describe la estrategia utilizada en la diferenciación automática y cómo aplicarla a los VRP. El capítulo \ref{chapter: Automatic-Eval} describe el proceso y la estructura implementados. En el capítulo \ref{chapter: Results} se exponen los resultados alcanzados. Se presentan, además, las conclusiones obtenidas a partir de este trabajo y se brindan algunas recomendaciones para la extensibilidad del sistema en trabajos futuros.
+
+
+
+
+

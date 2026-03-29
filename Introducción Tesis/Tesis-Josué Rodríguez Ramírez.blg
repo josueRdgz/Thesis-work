@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Tesis-Josué Rodríguez Ramírez.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Bibliography.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--empty booktitle in Alemany
+Warning--empty booktitle in Bayir
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            591 strings with 6406 characters,
+and the built_in function-call counts, 4057 in all, are:
+= -- 387
+> -- 198
+< -- 0
++ -- 81
+- -- 64
+* -- 259
+:= -- 723
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 72
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 152
+empty$ -- 319
+format.name$ -- 64
+if$ -- 829
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 77
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 97
+stack$ -- 0
+substring$ -- 206
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 2
+while$ -- 35
+width$ -- 16
+write$ -- 153
+(There were 2 warnings)

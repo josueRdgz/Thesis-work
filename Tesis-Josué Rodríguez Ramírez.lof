@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Variantes del VRP. A: CVRP. B: VRPTW. C: MDVRP.}}{15}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Grafo inicializado.}}{19}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Proceso del grafo de evaluación comenzando con el cliente 1.}}{20}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Proceso del grafo de evaluación a terminar la ruta A.}}{20}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Proceso del grafo de evaluación terminado.}}{21}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Grafo de evaluación transformado al eliminar el cliente 3.}}{21}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Grafo de evaluación transformado al cambiar el cliente 3 de la ruta A a la ruta B.}}{22}{figure.1.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Grafo de evaluación para el ejemplo, se distinguen los diferentes tipos de variables.}}{25}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Estructura básica de la cinta.}}{28}{figure.2.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Grafo de evaluación de un VRP con variables independientes.}}{31}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Grafo de evaluación de un VRP con rutas disjuntas. Caso donde solo se afecta una subruta.}}{32}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Grafo de evaluación transformado al eliminar el cliente 3.}}{35}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Grafo de evaluación transformado al eliminar el cliente 3.}}{36}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cinta de evaluación para el ejemplo \ref {fig:lisp-deleteClient}.}}{37}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Cinta de evaluación para el ejemplo \ref {fig:lisp-insertClient}.}}{38}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Cinta de evaluación usando el criterio \textit {cambiar un cliente de posición}.}}{38}{figure.3.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Solución inicial del VRPSPD.}}{40}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Código de evaluación de una solución de un VRPSPD. La operación \texttt {d(x,y)} representa la distancia entre \texttt {x} e \texttt {y}.}}{40}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Solución inicial del VRPTW.}}{41}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Código de evaluación de una solución de un VRPTW. La operación \texttt {d(x,y)} representa la distancia entre \texttt {x} e \texttt {y}. La operación \texttt {t(x,y)} representa el tiempo del recorrido entre \texttt {x} e \texttt {y}}}{42}{figure.4.4}%

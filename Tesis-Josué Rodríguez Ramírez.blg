@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Tesis-Josué Rodríguez Ramírez.aux
+A level-1 auxiliary file: FrontMatter/Dedication.aux
+A level-1 auxiliary file: FrontMatter/Thanks.aux
+A level-1 auxiliary file: FrontMatter/SupervisorOpinion.aux
+A level-1 auxiliary file: FrontMatter/Abstract.aux
+A level-1 auxiliary file: FrontMatter/Contents.aux
+A level-1 auxiliary file: MainMatter/Introduction.aux
+A level-1 auxiliary file: MainMatter/Preliminaries.aux
+A level-1 auxiliary file: MainMatter/AutomaticDiff.aux
+A level-1 auxiliary file: MainMatter/AutomaticEval.aux
+A level-1 auxiliary file: MainMatter/Results.aux
+A level-1 auxiliary file: BackMatter/Conclusions.aux
+A level-1 auxiliary file: BackMatter/Recomendations.aux
+A level-1 auxiliary file: BackMatter/Bibliography.aux
+The style file: plain.bst
+A level-1 auxiliary file: BackMatter/Glossary.aux
+Database file #1: Bibliography.bib
+Warning--empty booktitle in Alemany
+Warning--empty booktitle in Bayir
+Warning--empty school in Daniela
+Warning--empty school in Rodrigo
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            630 strings with 7441 characters,
+and the built_in function-call counts, 5192 in all, are:
+= -- 501
+> -- 253
+< -- 0
++ -- 105
+- -- 82
+* -- 340
+:= -- 927
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 190
+empty$ -- 399
+format.name$ -- 82
+if$ -- 1050
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 16
+newline$ -- 93
+num.names$ -- 36
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 77
+quote$ -- 0
+skip$ -- 124
+stack$ -- 0
+substring$ -- 272
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 4
+while$ -- 47
+width$ -- 20
+write$ -- 195
+(There were 4 warnings)
